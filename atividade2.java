@@ -17,7 +17,7 @@ class atividade2{
         entrada.close();
 
         //Processamento
-        valor = km * (float) 0,15;
+        valor = km * (float) 0.15;
 
         //Saída
         System.out.printf("Valor final: R$ %f\n", valor);
