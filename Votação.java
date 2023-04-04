@@ -27,6 +27,6 @@ class Votação{
         porcbranco = brancos * 100 / total;
 
         //Saída
-        System.out.printf("%.2f Votaram em C1.\n%.2f Votaram em C2.\n%.2f Votaram em C3.\n", porc1, porc2, porc3);
+        System.out.printf("%.2f Votaram em C1.\n%.2f Votaram em C2.\n%.2f Votaram em C3.\n%.2f Votaram em branco ou nulo\n", porc1, porc2, porc3, porcbranco);
     }
 }
