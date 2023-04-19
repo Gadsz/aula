@@ -15,7 +15,7 @@ class AulaIDADE {
 //processamento e saída
     System.out.printf("Parabéns! Você tem %d anos \n", idade);
     
-    if( idade>=18)
+    if(idade>=18)
     {
         System.out.println("Você é maior de idade");
     }
