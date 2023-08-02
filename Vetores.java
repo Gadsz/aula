@@ -1,10 +1,28 @@
-class Vetores {
-    public static void main(String[] args) {
-        int n;
-        int [] valores = {10 , 20, 30, 40, 50, 60, 70, 90, 100};
+import java.util.Scanner;
 
+public class Vetores {
+    public static void exercicio03(){
+        //variaveis
+        int[] valores = {0,0,0,0,0,0,0,0,0,0};
+        int n = 10, i, x;
+        Scanner entrada = new Scanner(System.in);
 
-        valores [5] = 500;
-        System.out.println(valores[5]);
+        //Entrada
+        System.out.println("Entre com 10 valores: ");
+        for(i=0;i<n;i++){
+            x = entrada.nextInt();
+            if(x<0){
+                valores[i] = 0;
+            }   else {
+               valores [i] =x;
+            }
+        }   
+        System.out.println("Os valores informados foram: ");
+        for(i=0;i<n;i++){
+            System.out.println(valores[i]);
+        }
+    }
+    public static void main(String[] args){
+        exercicio03();
     }
 }
