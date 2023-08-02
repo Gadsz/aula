@@ -12,10 +12,10 @@ public class Poligonos {
         entrada.close();
 
         //processamento e saída
-        if(a<=2){
+        if(a <=2){
             System.out.println("Não é um polígono meu parceiro");
         }
-        if(a>=6){
+        if(a >=6){
             System.out.println("É um polígono não identificado meu parceiro");
         }
         if(a=3){

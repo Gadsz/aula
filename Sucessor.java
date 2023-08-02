@@ -17,8 +17,8 @@ class Hello{
         sucessor   = n+1;
 
         //Saída
-        //System.out.printf("Antecessor: %d \n", antecessor);
-        //System.out.printf("Sucessor  : %d \n", sucessor);
+        System.out.printf("Antecessor: %d \n", antecessor);
+        System.out.printf("Sucessor  : %d \n", sucessor);
         System.out.printf("Valor: %d. Antecessor: %d.Sucessor: %d.\n", n, antecessor, sucessor); 
     }
 }

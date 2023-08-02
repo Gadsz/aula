@@ -3,7 +3,6 @@ public class AlgoritmoPalavra {
     public static void main(String[] args) {
         String palavra ="algoritmo";
         
-        
         System.out.println("=========");
         stringLinhas(palavra, n:2);
         System.out.println("=========");
